@@ -1,0 +1,66 @@
+@use 'variables' as *;
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    align-items: center; 
+    
+  }
+
+  .rounded-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: $color-secondary;
+    color: #ffffff;
+    border: none;
+    border-radius: 20px; 
+
+  }
+.container h1{
+    font-size: $font-size-title-extra-large;
+    color:$color-primary;
+    line-height: $line-height-large;
+}
+.container p{
+    font-size: $font-size-regular;
+    color:$color-gray
+}
+.parag p{
+    font-size: $font-size-regular;
+    color:$color-gray;
+    line-height: $line-height-regular;
+
+
+}
+
+h3{
+    font-size: $font-size-title-small;
+    font-weight: $font-weight-semibold;
+    line-height: $line-height-medium;
+
+}
+
+h3.red{
+    color: $color-secondary;
+}
+h3.blue{
+    color: $color-tertiary;
+}
+h3.green{
+    color: $color-success;
+}
+footer{
+    background-color: $color-primary;
+}
+.foot{
+    color: $color-white;
+    font-size: $font-size-regular;
+    line-height: $line-height-regular;
+}
+h3.title{
+    font-size: $font-size-title-medium;
+    font-weight: $font-weight-semibold;
+    line-height: $line-height-medium;
+    color: $color-white;
+}
