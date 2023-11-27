@@ -1,0 +1,157 @@
+@use "variables" as *;
+
+
+body {
+    background-color: $color-white;
+    font-family: $font-family;
+    font-size: $font-size-regular;
+    line-height: $line-height-regular;
+
+}
+
+section {
+    max-width: 70rem !important;
+}
+
+header, .hero-section,.section1 {
+    margin: 0 auto;
+
+}
+.logo-esprit {
+    width: 80px;
+}
+.hero-img {
+    width: 250px;
+}
+.section3-img {
+    width: 300px;
+}
+
+ul {
+    list-style-type: none;
+    column-gap: 2rem;
+    
+}
+.navbar-toggler {
+        border: none;
+            outline: none;
+}
+.nav-list {
+    display: flex;
+    justify-content: end;
+    
+}
+
+.hero-section {
+    margin-bottom: 4rem;
+    column-gap: 5rem;
+    margin-top: 4rem;
+    .hero-title {
+        font-size: $font-size-title-medium;
+        font-weight: $font-weight-bold;
+        line-height: $line-height-medium;
+        color: $color-primary;
+    }
+    .hero-p {
+        font-size : $font-size-medium;
+        line-height: $line-height-regular;
+        color: $color-gray;
+    }
+    .hero-btn {
+        font-size : $font-size-regular;
+        font-weight: $font-weight-bold;
+        color: $color-white;
+        background: $color-secondary;
+        border: none;
+        padding: 1rem 2.5rem;
+        border-radius: 2rem;
+        cursor: pointer;
+
+      
+    }
+}
+
+.section1 {
+    column-gap: 30px;
+    div {
+        h3 {
+            font-size : $font-size-title-small;
+            line-height: $line-height-medium;
+            font-weight: $font-weight-bold;
+        }
+        p {
+            color: $color-gray;
+            font-size : $font-size-regular;
+            line-height: $line-height-regular;
+        }
+    }
+}
+
+footer {
+    margin-top: 10rem;
+    background: $color-primary;
+    color: $color-white;
+    padding: 3rem 0 4rem 0;
+    text-align: center;
+    .footer-list {
+        font-size: 13px;
+    }
+    h3 {
+        font-weight: $font-weight-bold;
+    }
+    .icons {
+        img {
+            height: 2.5rem;
+        }
+    }
+}
+
+/***sm***/
+@media screen and (min-width: 640px) {
+    .footer-list {
+            font-size: $font-size-regular;
+     }
+    .logo-esprit {
+        width: 150px;
+    }
+    .hero-img {
+        width: 350px;
+    }
+    .hero-section {
+    .hero-title {
+        font-size: $font-size-title-large;         }
+    }
+}
+
+/***md***/
+@media screen and (min-width: 768px) {
+   
+}
+
+/***lg***/
+@media screen and (min-width: 1024px) {
+    .logo-esprit {
+        width: 240px;
+    }
+    .section3-img {
+            width: 400px;
+        }
+    .hero-img {
+            width: 450px;
+        }
+     .hero-section {   
+     .hero-title {
+             font-size: $font-size-title-xl;
+               line-height: $line-height-large;
+     }
+      }
+}
+
+/***xl***/
+@media screen and (min-width: 1280px) {
+    .section3-img {
+            width: 500px;
+        }
+   
+
+}

@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+body {
+  background-color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+section {
+  max-width: 70rem !important;
+}
+
+header, .hero-section, .section1 {
+  margin: 0 auto;
+}
+
+.logo-esprit {
+  width: 80px;
+}
+
+.hero-img {
+  width: 250px;
+}
+
+.section3-img {
+  width: 300px;
+}
+
+ul {
+  list-style-type: none;
+  column-gap: 2rem;
+}
+
+.navbar-toggler {
+  border: none;
+  outline: none;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: end;
+}
+
+.hero-section {
+  margin-bottom: 4rem;
+  column-gap: 5rem;
+  margin-top: 4rem;
+}
+.hero-section .hero-title {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 48px;
+  color: #242f51;
+}
+.hero-section .hero-p {
+  font-size: 18px;
+  line-height: 24px;
+  color: #616368;
+}
+.hero-section .hero-btn {
+  font-size: 16px;
+  font-weight: 700;
+  color: #fff;
+  background: #f55767;
+  border: none;
+  padding: 1rem 2.5rem;
+  border-radius: 2rem;
+  cursor: pointer;
+}
+
+.section1 {
+  column-gap: 30px;
+}
+.section1 div h3 {
+  font-size: 20px;
+  line-height: 48px;
+  font-weight: 700;
+}
+.section1 div p {
+  color: #616368;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+footer {
+  margin-top: 10rem;
+  background: #242f51;
+  color: #fff;
+  padding: 3rem 0 4rem 0;
+  text-align: center;
+}
+footer .footer-list {
+  font-size: 13px;
+}
+footer h3 {
+  font-weight: 700;
+}
+footer .icons img {
+  height: 2.5rem;
+}
+
+/***sm***/
+@media screen and (min-width: 640px) {
+  .footer-list {
+    font-size: 16px;
+  }
+  .logo-esprit {
+    width: 150px;
+  }
+  .hero-img {
+    width: 350px;
+  }
+  .hero-section .hero-title {
+    font-size: 36px;
+  }
+}
+/***md***/
+/***lg***/
+@media screen and (min-width: 1024px) {
+  .logo-esprit {
+    width: 240px;
+  }
+  .section3-img {
+    width: 400px;
+  }
+  .hero-img {
+    width: 450px;
+  }
+  .hero-section .hero-title {
+    font-size: 60px;
+    line-height: 72px;
+  }
+}
+/***xl***/
+@media screen and (min-width: 1280px) {
+  .section3-img {
+    width: 500px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
